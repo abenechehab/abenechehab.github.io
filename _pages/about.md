@@ -2,16 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <b>Ph.D. student</b> @ <a href='#'>Huawei Noah's Ark Lab</a> and <a href='https://www.eurecom.fr/en/research/department-data-science'>DS@EURECOM</a> (a member of <a href='https://www.sorbonne-universite.fr/'>Sorbonne university</a> graduate schools).
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: pdp.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>&#128235; Paris, France &#xe50d;</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
