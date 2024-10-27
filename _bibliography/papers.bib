@@ -4,56 +4,89 @@
   title={Multi-timestep models for Model-based Reinforcement Learning},
   author={Benechehab, Abdelhakim and Paolo, Giuseppe and Thomas, Albert and Filippone, Maurizio and K{\'e}gl, Bal{\'a}zs},
   journal={arXiv preprint arXiv:2310.05672},
-  year={2023}
+  year={2023},
+  abbr={preprint},
 }
 
 @article{benechehab2022deep,
   title={Deep autoregressive density nets vs neural ensembles for model-based offline reinforcement learning},
   author={Benechehab, Abdelhakim and Thomas, Albert and K{\'e}gl, Bal{\'a}zs},
-  year={2022}
+  year={2022},
+  abbr={preprint},
 }
 
 @article{benechehab2024multi,
   title={A Multi-step Loss Function for Robust Learning of the Dynamics in Model-based Reinforcement Learning},
   author={Benechehab, Abdelhakim and Thomas, Albert and Paolo, Giuseppe and Filippone, Maurizio and K{\'e}gl, Bal{\'a}zs},
   journal={arXiv preprint arXiv:2402.03146},
-  year={2024}
+  year={2024},
+  month={feb},
+  day={5},
+  abbr={preprint},
 }
 
 @inproceedings{thomas2024fair,
   title={Fair Model-Based Reinforcement Learning Comparisons with Explicit and Consistent Update Frequency},
   author={Thomas, Albert and Benechehab, Abdelhakim and Paolo, Giuseppe and K{\'e}gl, Bal{\'a}zs},
   booktitle={The Third Blogpost Track at ICLR 2024},
-  year={2024}
+  year={2024},
+  month={feb},
+  day={16},
+  abbr={Blogposts @ ICLR},
 }
 
-@inproceedings{benechehab2024study,
+@article{benechehab2024study,
   title={A Study of the Weighted Multi-step Loss Impact on the Predictive Error and the Return in MBRL},
   author={Benechehab, Abdelhakim and Thomas, Albert and Paolo, Giuseppe and Filippone, Maurizio and K{\'e}gl, Bal{\'a}zs},
-  booktitle={I Can't Believe It's Not Better Workshop: Failure Modes of Sequential Decision-Making in Practice (RLC 2024)},
-  year={2024}
+  journal={I Can't Believe It's Not Better Workshop: Failure Modes of Sequential Decision-Making in Practice (RLC 2024)},
+  year={2024},
+  month={june},
+  day={7},
+  abbr={ICBINB @ RLC},
+  selected=true,
+  abstract={In model-based reinforcement learning, most algorithms rely on simulating trajectories from one-step models of the dynamics learned on data. A critical challenge of this approach is the compounding of one-step prediction errors as the length of the trajectory grows. In this paper we tackle this issue by using a multi-step objective to train one-step models. Our objective is a weighted sum of the mean squared error (MSE) loss at various future horizons. We find that this new loss is particularly useful when the data is noisy (additive Gaussian noise in the observations), which is often the case in real-life environments. We show in a variety of tasks (environments or datasets) that the models learned with this loss achieve a significant improvement in terms of the averaged R2-score on future prediction horizons. To our surprise, in the pure batch reinforcement learning setting, we find that the multi-step loss-based models perform only marginally better than the baseline. Furthermore, this improvement is only observed for small loss horizons, unlike the trend present with the R2-score on the respective datasets.},
+  pdf={https://openreview.net/pdf?id=K4VjW7evSV},
 }
 
-@inproceedings{zekri2024can,
+@article{zekri2024can,
   title={Can LLMs predict the convergence of Stochastic Gradient Descent?},
   author={Zekri, Oussama and Benechehab, Abdelhakim and Redko, Ievgen},
-  booktitle={ICML 2024 Workshop on In-Context Learning},
-  year={2024}
+  journal={ICML 2024 Workshop on In-Context Learning},
+  year={2024},
+  month={june},
+  day={18},
+  abbr={ICL @ ICML},
+  selected=true,
+  abstract={Large-language models are notoriously famous for their impressive performance across a wide range of tasks. One surprising example of such impressive performance is a recently identified capacity of LLMs to understand the governing principles of dynamical systems satisfying the Markovian property. In this paper, we seek to explore this direction further by studying the dynamics of stochastic gradient descent in convex and non-convex optimization. By leveraging the theoretical link between the SGD and Markov chains, we show a remarkable zero-shot performance of LLMs in predicting the local minima to which SGD converges for previously unseen starting points. On a more general level, we inquire about the possibility of using LLMs to perform zero-shot randomized trials for larger deep learning models used in practice.},
+  pdf={https://arxiv.org/pdf/2408.01736},
 }
 
 @article{zekri2024large,
   title={Large Language Models as Markov Chains},
   author={Zekri, Oussama and Odonnat, Ambroise and Benechehab, Abdelhakim and Bleistein, Linus and Boull{\'e}, Nicolas and Redko, Ievgen},
-  journal={arXiv preprint arXiv:2410.02724},
+  preprint={Preprint},
+  arxiv={2410.02724},
   year={2024},
+  month={oct},
+  day={3},
   pdf={https://arxiv.org/pdf/2410.02724},
+  abbr={preprint},
+  selected=true,
+  abstract={Large language models (LLMs) have proven to be remarkably efficient, both across a wide range of natural language processing tasks and well beyond them. However, a comprehensive theoretical analysis of the origins of their impressive performance remains elusive. In this paper, we approach this challenging task by drawing an equivalence between generic autoregressive language models with vocabulary of size T and context window of size K and Markov chains defined on a finite state space of size O(T^K). We derive several surprising findings related to the existence of a stationary distribution of Markov chains that capture the inference power of LLMs, their speed of convergence to it, and the influence of the temperature on the latter. We then prove pre-training and in-context generalization bounds and show how the drawn equivalence allows us to enrich their interpretation. Finally, we illustrate our theoretical guarantees with experiments on several recent LLMs to highlight how they capture the behavior observed in practice.},
 }
 
 @article{benechehab2024zero,
   title={Zero-shot Model-based Reinforcement Learning using Large Language Models},
   author={Benechehab, Abdelhakim and Hili, Youssef Attia El and Odonnat, Ambroise and Zekri, Oussama and Thomas, Albert and Paolo, Giuseppe and Filippone, Maurizio and Redko, Ievgen and K{\'e}gl, Bal{\'a}zs},
-  journal={arXiv preprint arXiv:2410.11711},
+  preprint={Preprint},
+  arxiv={2410.11711},
   year={2024},
-  publisher={Vision},
+  month={oct},
+  day={15},
+  abbr={preprint},
   preview={wave-mechanics.gif},
+  selected=true,
+  abstract={The emerging zero-shot capabilities of Large Language Models (LLMs) have led to their applications in areas extending well beyond natural language processing tasks. In reinforcement learning, while LLMs have been extensively used in text-based environments, their integration with continuous state spaces remains understudied. In this paper, we investigate how pre-trained LLMs can be leveraged to predict in context the dynamics of continuous Markov decision processes. We identify handling multivariate data and incorporating the control signal as key challenges that limit the potential of LLMs' deployment in this setup and propose Disentangled In-Context Learning (DICL) to address them. We present proof-of-concept applications in two reinforcement learning settings: model-based policy evaluation and data-augmented off-policy reinforcement learning, supported by theoretical analysis of the proposed methods. Our experiments further demonstrate that our approach produces well-calibrated uncertainty estimates. We release the code at https://github.com/abenechehab/dicl.},
+  code={https://github.com/abenechehab/dicl},
+  pdf={https://arxiv.org/pdf/2410.11711},
 }
