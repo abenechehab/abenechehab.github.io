@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎤 <a href="https://youtu.be/WCclCOjy6vw">Presenting</a> our <a href="https://openreview.net/forum?id=K4VjW7evSV">multi-step loss</a> paper @ the <a href="https://sites.google.com/view/rlc2024-icbinb/home">ICBINB@RLC</a> workshop, in Amherst, Massachusetts.
+🎤 <a href="https://youtu.be/WCclCOjy6vw">Presenting</a> our <a href="https://openreview.net/forum?id=K4VjW7evSV">multi-step loss</a> paper @ the <a href="https://sites.google.com/view/rlc2024-icbinb/home">ICBINB@RLC</a> workshop in Amherst, Massachusetts.

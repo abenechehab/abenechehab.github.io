@@ -9,7 +9,7 @@ profile:
   image: pdp.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>&#128235; Paris, France &#xe50d;</p>
+    <p>&#128235; Paris, France &#127467;&#127479;</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
