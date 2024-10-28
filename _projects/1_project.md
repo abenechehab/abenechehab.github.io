@@ -8,15 +8,15 @@ category: "Aljadid Fl'AI"
 related_publications: false
 ---
 
-<h2>Description</h2>
-
-<h3>🌟 Episode 13 Main News:</h3>
+<h3>🌟 Main News:</h3>
 <ul>
-    <li>🌍 RNNs, Transformers... Kolchi bhal bhal ?! 🤔</li>
+    <li> RNNs, Transformers... Kolchi bhal bhal ?! 🤔</li>
 </ul>
 
 <h4>🗣️ Presented by:</h4>
-<p>Abdelhakim Benechehab.</p>
+<ul>
+    <li>Abdelhakim Benechehab</li>
+</ul>
 
 <h4>🤝 Credits:</h4>
 <ul>
@@ -63,14 +63,28 @@ related_publications: false
 
 <p>🎧 Don't forget to like, share, and subscribe for more AI news updates in Moroccan dialect! 🎧</p>
 
-<p>#AIPodcast #AINews #ArtificialIntelligence #AIFuture #TechNews #LLM #Math&Maroc</p>
+<hr>
+
+<br><br>
 
 <h2>Youtube</h2>
 
+<br>
+
 <iframe width="930" height="698"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
+src="https://www.youtube.com/watch?v=uyW43fo7av0&t=2545s">
 </iframe>
+
+<hr>
+
+<br><br>
 
 <h2>Spotify</h2>
 
-<iframe src="https://podcasters.spotify.com/pod/show/mathandmaroc/embed/episodes/RNNs--Transformers----Kolchi-bhal-bhal------Ministral--Deepseek-Janus-1-3B--state-of-ai-report--and-more---Podcast-AlJadid-FlAI-Episode-13-e2q3ppg" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<br>
+
+<iframe src="https://podcasters.spotify.com/pod/show/mathandmaroc/embed/episodes/RNNs--Transformers----Kolchi-bhal-bhal------Ministral--Deepseek-Janus-1-3B--state-of-ai-report--and-more---Podcast-AlJadid-FlAI-Episode-13-e2q3ppg" height="102px" width="930px" frameborder="0" scrolling="no"></iframe>
+
+<hr>
+
+<br><br>
