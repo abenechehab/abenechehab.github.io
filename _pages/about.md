@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>Ph.D. student</b> @ <a href='#'>Huawei Noah's Ark Lab</a> and <a href='https://www.eurecom.fr/en/research/department-data-science'>DS@EURECOM</a> (a member of <a href='https://www.sorbonne-universite.fr/'>Sorbonne university</a> graduate schools).
+subtitle: <b>Ph.D. student</b> @ <a href='#'>Huawei Noah's Ark Lab</a> and <a href='https://www.eurecom.fr/en/research/department-data-science'>EURECOM</a>, a <a href='https://www.sorbonne-universite.fr/'>Sorbonne university</a> graduate school.
 
 profile:
   align: right
