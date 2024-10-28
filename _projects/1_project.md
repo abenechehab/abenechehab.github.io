@@ -71,7 +71,7 @@ related_publications: false
 
 <br>
 
-<iframe width="930" height="698"
+<iframe width="930" height="524"
 src="https://www.youtube.com/watch?v=uyW43fo7av0&t=2545s">
 </iframe>
 
