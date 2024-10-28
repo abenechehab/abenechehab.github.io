@@ -71,9 +71,7 @@ related_publications: false
 
 <br>
 
-<iframe width="930" height="524"
-src="https://www.youtube.com/watch?v=uyW43fo7av0&t=2545s">
-</iframe>
+<iframe width="930" height="524" src="https://www.youtube.com/embed/uyW43fo7av0?si=ccnHVu3ivAWATRHb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <hr>
 
@@ -83,7 +81,7 @@ src="https://www.youtube.com/watch?v=uyW43fo7av0&t=2545s">
 
 <br>
 
-<iframe src="https://podcasters.spotify.com/pod/show/mathandmaroc/embed/episodes/RNNs--Transformers----Kolchi-bhal-bhal------Ministral--Deepseek-Janus-1-3B--state-of-ai-report--and-more---Podcast-AlJadid-FlAI-Episode-13-e2q3ppg" height="102px" width="930px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://podcasters.spotify.com/pod/show/mathandmaroc/embed/episodes/RNNs--Transformers----Kolchi-bhal-bhal------Ministral--Deepseek-Janus-1-3B--state-of-ai-report--and-more---Podcast-AlJadid-FlAI-Episode-13-e2q3ppg" height="237px" width="930px" frameborder="0" scrolling="no"></iframe>
 
 <hr>
 
