@@ -4,7 +4,7 @@ title: podcast
 permalink: /projects/
 description: 📢 Our podcast "Aljadid Fl'AI", brings to you the latest AI news in Moroccan Dialect. Presented @ <a href='https://www.mathmaroc.org/'>Math&Maroc</a>, sponsored by <a href='https://adria-bt.com/en/'>Adria Business & Technology</a>.
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [work]
 horizontal: false
 ---
