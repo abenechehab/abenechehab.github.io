@@ -15,6 +15,7 @@
   code={https://github.com/abenechehab/dicl},
   pdf={https://arxiv.org/pdf/2410.11711},
   video={https://www.youtube.com/watch?v=3pS48oY1X7Q},
+  bibtex_show={true},
 }
 
 @article{zekri2024large,
@@ -30,6 +31,7 @@
   preview={llm_preview.PNG},
   selected=true,
   abstract={Large language models (LLMs) have proven to be remarkably efficient, both across a wide range of natural language processing tasks and well beyond them. However, a comprehensive theoretical analysis of the origins of their impressive performance remains elusive. In this paper, we approach this challenging task by drawing an equivalence between generic autoregressive language models with vocabulary of size T and context window of size K and Markov chains defined on a finite state space of size O(T^K). We derive several surprising findings related to the existence of a stationary distribution of Markov chains that capture the inference power of LLMs, their speed of convergence to it, and the influence of the temperature on the latter. We then prove pre-training and in-context generalization bounds and show how the drawn equivalence allows us to enrich their interpretation. Finally, we illustrate our theoretical guarantees with experiments on several recent LLMs to highlight how they capture the behavior observed in practice.},
+  bibtex_show={true},
 }
 
 @article{zekri2024can,
@@ -45,6 +47,7 @@
   abstract={Large-language models are notoriously famous for their impressive performance across a wide range of tasks. One surprising example of such impressive performance is a recently identified capacity of LLMs to understand the governing principles of dynamical systems satisfying the Markovian property. In this paper, we seek to explore this direction further by studying the dynamics of stochastic gradient descent in convex and non-convex optimization. By leveraging the theoretical link between the SGD and Markov chains, we show a remarkable zero-shot performance of LLMs in predicting the local minima to which SGD converges for previously unseen starting points. On a more general level, we inquire about the possibility of using LLMs to perform zero-shot randomized trials for larger deep learning models used in practice.},
   pdf={https://arxiv.org/pdf/2408.01736},
   poster={ICML_ICL_Workshop_Poster__SGDICL_.pdf},
+  bibtex_show={true},
 }
 
 @article{benechehab2024study,
@@ -62,6 +65,7 @@
   video={https://youtu.be/WCclCOjy6vw},
   slides={Multi_step_loss_ICBINB_RLC24_Presentation.pdf},
   poster={dlrlss_multi_step_poster_benechehab.pdf},
+  bibtex_show={true},
 }
 
 @article{thomas2024fair,
@@ -76,6 +80,7 @@
   poster={ICLR_24_Blogpost_poster.pdf},
   abstract={Implicit update frequencies can introduce ambiguity in the interpretation of model-based reinforcement learning benchmarks, obscuring the real objective of the evaluation. While the update frequency can sometimes be optimized to improve performance, real-world applications often impose constraints, allowing updates only between deployments on the actual system. This blog post emphasizes the need for evaluations using consistent update frequencies across different algorithms to provide researchers and practitioners with clearer comparisons under realistic constraints.},
   blogpost={https://iclr-blogposts.github.io/2024/blog/update-frequency-in-mbrl/},
+  bibtex_show={true},
 }
 
 @article{benechehab2024multi,
@@ -91,6 +96,7 @@
   poster={dlrlss_multi_step_poster_benechehab.pdf},
   pdf={https://arxiv.org/pdf/2402.03146},
   abstract={In model-based reinforcement learning, most algorithms rely on simulating trajectories from one-step models of the dynamics learned on data. A critical challenge of this approach is the compounding of one-step prediction errors as the length of the trajectory grows. In this paper we tackle this issue by using a multi-step objective to train one-step models. Our objective is a weighted sum of the mean squared error (MSE) loss at various future horizons. We find that this new loss is particularly useful when the data is noisy (additive Gaussian noise in the observations), which is often the case in real-life environments. To support the multi-step loss, first we study its properties in two tractable cases: i) uni-dimensional linear system, and ii) two-parameter non-linear system. Second, we show in a variety of tasks (environments or datasets) that the models learned with this loss achieve a significant improvement in terms of the averaged R2-score on future prediction horizons. Finally, in the pure batch reinforcement learning setting, we demonstrate that one-step models serve as strong baselines when dynamics are deterministic, while multi-step models would be more advantageous in the presence of noise, highlighting the potential of our approach in real-world applications.},
+  bibtex_show={true},
 }
 
 @article{benechehab2023multi,
@@ -103,6 +109,7 @@
   preview={msl_iclr.PNG},
   pdf={https://arxiv.org/pdf/2310.05672},
   abstract={In model-based reinforcement learning (MBRL), most algorithms rely on simulating trajectories from one-step dynamics models learned on data. A critical challenge of this approach is the compounding of one-step prediction errors as length of the trajectory grows. In this paper we tackle this issue by using a multi-timestep objective to train one-step models. Our objective is a weighted sum of a loss function (e.g., negative log-likelihood) at various future horizons. We explore and test a range of weights profiles. We find that exponentially decaying weights lead to models that significantly improve the long-horizon R2 score. This improvement is particularly noticeable when the models were evaluated on noisy data. Finally, using a soft actor-critic (SAC) agent in pure batch reinforcement learning (RL) and iterated batch RL scenarios, we found that our multi-timestep models outperform or match standard one-step models. This was especially evident in a noisy variant of the considered environment, highlighting the potential of our approach in real-world applications.},
+  bibtex_show={true},
 }
 
 @article{benechehab2022deep,
@@ -115,6 +122,7 @@
   preview={offline.PNG},
   pdf={https://arxiv.org/pdf/2402.02858},
   abstract={We consider the problem of offline reinforcement learning where only a set of system transitions is made available for policy optimization. Following recent advances in the field, we consider a model-based reinforcement learning algorithm that infers the system dynamics from the available data and performs policy optimization on imaginary model rollouts. This approach is vulnerable to exploiting model errors which can lead to catastrophic failures on the real system. The standard solution is to rely on ensembles for uncertainty heuristics and to avoid exploiting the model where it is too uncertain. We challenge the popular belief that we must resort to ensembles by showing that better performance can be obtained with a single well-calibrated autoregressive model on the D4RL benchmark. We also analyze static metrics of model-learning and conclude on the important model properties for the final performance of the agent.},
+  bibtex_show={true},
 }
 
 

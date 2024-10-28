@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: podcast
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
+description: 📢 Our podcast "Aljadid Fl'AI", brings to you the latest AI news in Moroccan Dialect. Presented @ <a href='https://www.mathmaroc.org/'>Math&Maroc</a>, sponsored by <a href='https://adria-bt.com/en/'>Adria Business & Technology</a>.
+nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [work]
 horizontal: false
 ---
 
