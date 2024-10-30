@@ -2,7 +2,7 @@
 layout: page
 title: Episode 7
 description: 4 Jul 2024
-img: assets/img/podcast/thumbnail_ep13.png
+img: assets/img/podcast/ep7.png
 importance: 1
 category: "Aljadid Fl'AI"
 related_publications: false
