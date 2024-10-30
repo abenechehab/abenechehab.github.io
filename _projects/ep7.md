@@ -3,52 +3,47 @@ layout: page
 title: Episode 7
 description: 4 Jul 2024
 img: assets/img/podcast/ep7.png
-importance: 1
+importance: 94
 category: "Aljadid Fl'AI"
 related_publications: false
 ---
 
-<iframe src="https://podcasters.spotify.com/pod/show/mathandmaroc/embed/episodes/Episode-7-e2lm56u/a-abdmufh" height="237px" width="930px" frameborder="0" scrolling="no"></iframe>
+<div style="display: flex; justify-content: center;">
+    <iframe src="https://podcasters.spotify.com/pod/show/mathandmaroc/embed/episodes/Episode-7-e2lm56u/a-abdmufh"
+            style="aspect-ratio: 310 / 79; width: 100% !important;"></iframe>
+</div>
+
+<hr>
 
 <h3>🌟 Main News:</h3>
 <ul>
-    <li> Podcast AlJadid Fl'AI Episode 7</li>
+    <li> Podcast AlJadid Fl'AI Episode 7 </li>
 </ul>
 
-<h4>🗣️ Presented by:</h4>
+<h3>📜 Full Outline:</h3>
 <ul>
-    <li>Abdelhakim Benechehab</li>
+<li>00:00 Intro</li>
+<li>01:11 Claude 3.5 Sonnet</li>
+<li>06:15 Gemma 2</li>
+<li>07:22 Knowledge distillation</li>
+<li>11:20 LLM hallucination</li>
+<li>14:00 CriticGPT</li>
+<li>17:00 Semantic entropy</li>
+<li>18:33 Ilya Sutskever's SSI</li>
+<li>21:50 ARC Kaggle challenge</li>
+<li>30:25 Olympic talent detection</li>
+<li>33:20 Chronique</li>
+<li>36:33 Outro</li>
 </ul>
 
-<h4>🤝 Credits:</h4>
+<h3>🔗 Listen & Follow:</h3>
 <ul>
-    <li>Chaimaa Radiousse</li>
-    <li>Hasnaa Ouadoudi</li>
+    <li><a href="https://www.youtube.com/watch?v=YTx_YBOHHoY&list=PLG573uUBOvv68e2bSlDIN66T9fSbxyMdz">Youtube</a></li>
+    <li><a href="https://open.spotify.com/show/1tWmYjfazgjont9JuqJm74">Spotify</a></li>
+    <li><a href="https://podcasts.apple.com/fr/podcast/aljadid-f-lai/id1739684351">Apple Podcasts</a></li>
 </ul>
 
-<h4>📜 Full Outline:</h4>
-<ul>
-    <li>00:00 Intro</li>
-    <li>01:11 Claude 3.5 Sonnet</li>
-    <li>06:15 Gemma 2</li>
-    <li>07:22 Knowledge distillation</li>
-    <li>11:20 LLM hallucination</li>
-    <li>14:00 CriticGPT</li>
-    <li>17:00 Semantic entropy</li>
-    <li>18:33 Ilya Sutskever's SSI</li>
-    <li>21:50 ARC Kaggle challenge</li>
-    <li>30:25 Olympic talent detection</li>
-    <li>33:20 Chronique</li>
-    <li>36:33 Outro</li>
-</ul>
-
-<h4>🔗 Listen & Follow:</h4>
-<ul>
-    <li><a href="https://open.spotify.com/show/1tWmYjfazgjont9JuqJm74">Spotify: Aljadid Fl'AI on Spotify</a></li>
-    <li><a href="https://podcasts.apple.com/fr/podcast/aljadid-f-lai/id1739684351">Apple Podcasts: Aljadid Fl'AI on Apple Podcasts</a></li>
-</ul>
-
-<h4>🌐 Connect with us:</h4>
+<h3>🌐 Connect with Math&Maroc:</h3>
 <ul>
     <li>Instagram: <a href="https://www.instagram.com/mathmaroc/?hl=en">@mathmaroc</a></li>
     <li>Twitter: <a href="https://x.com/MathsMaroc">@MathsMaroc</a></li>
@@ -66,8 +61,12 @@ related_publications: false
 
 <br>
 
-<iframe width="930" height="524" src="https://www.youtube.com/embed/bwSIMtO5qyQ?si=XtkXNwClMnvzCD0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="display: flex; justify-content: center;">
+    <iframe src="https://www.youtube.com/embed/bwSIMtO5qyQ?si=o_k8G1WLIoRR5MNu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="aspect-ratio: 16 / 9; width: 100% !important;"></iframe>
+</div>
 
 <hr>
 
 <br><br>
+
+
