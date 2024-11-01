@@ -8,8 +8,6 @@ nav: false
 nav_order: 6
 ---
 
-<!-- Add this to the frontmatter above to make it appear in navigation -->
-
 <div class="travel-container">
     <div id="travel-map"></div>
     <div id="image-showcase" class="image-showcase">
@@ -81,11 +79,18 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize the map
     const map = L.map('travel-map').setView([20, 0], 2);
     
-    // Add OpenStreetMap tiles
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '© OpenStreetMap contributors'
+    // Option 1: JAWG Maps Streets (free, no API key required)
+    L.tileLayer('https://tile.jawg.io/jawg-streets/{z}/{x}/{y}.png?access-token=anonymous', {
+        attribution: '<a href="http://jawg.io" title="Tiles Courtesy of Jawg Maps" target="_blank">&copy; <b>Jawg</b>Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        minZoom: 0,
+        maxZoom: 22
     }).addTo(map);
+    
+    // Option 2 (alternative if JAWG doesn't work):
+    // L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png', {
+    //     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    //     maxZoom: 19
+    // }).addTo(map);
     
     // Your travel data
     const travelData = [
