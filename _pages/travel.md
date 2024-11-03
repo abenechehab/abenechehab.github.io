@@ -79,36 +79,139 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize the map
     const map = L.map('travel-map').setView([20, 0], 2);
     
-    // Option 1: JAWG Maps Streets (free, no API key required)
-    // L.tileLayer('https://tile.jawg.io/jawg-streets/{z}/{x}/{y}.png?access-token=anonymous', {
-    //     attribution: '<a href="http://jawg.io" title="Tiles Courtesy of Jawg Maps" target="_blank">&copy; <b>Jawg</b>Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    //     minZoom: 0,
-    //     maxZoom: 22
-    // }).addTo(map);
-    
-    // Option 2 (alternative if JAWG doesn't work):
     L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
         maxZoom: 19
     }).addTo(map);
     
     // Your travel data
+    // const travelData = [
+    //     {
+    //         location: [51.5074, -0.1278],
+    //         title: "London, UK",
+    //         images: [
+    //             {
+    //                 url: "/assets/img/travel/london1.jpg",
+    //                 caption: "Big Ben at sunset"
+    //             },
+    //             {
+    //                 url: "/assets/img/travel/london2.jpg",
+    //                 caption: "Tower Bridge"
+    //             }
+    //         ]
+    //     },
+    //     // Add more locations here
+    // ];
+
     const travelData = [
         {
-            location: [51.5074, -0.1278],
-            title: "London, UK",
+            location: [41.1171, 16.8719],
+            title: "Bari, Italy",
             images: [
                 {
-                    url: "/assets/img/travel/london1.jpg",
-                    caption: "Big Ben at sunset"
+                    url: "/assets/img/travel/bari/1.jpg",
+                    caption: "Bari beach at sunset"
                 },
                 {
-                    url: "/assets/img/travel/london2.jpg",
-                    caption: "Tower Bridge"
+                    url: "/assets/img/travel/bari/2.jpg",
+                    caption: "Bari old town streets"
+                },
+                {
+                    url: "/assets/img/travel/bari/3.jpg",
+                    caption: "Local wedding at Bari Cathedral"
+                }
+            ]  // Add your image paths and captions here
+        },
+        {
+            location: [41.3233, 19.4411],
+            title: "Durrës, Albania",
+            images: [
+                {
+                    url: "/assets/img/travel/durres/1.jpg",
+                    caption: "Roman amphitheatre"
+                },
+                {
+                    url: "/assets/img/travel/durres/2.jpg",
+                    caption: "View of Durres Beaches at night from the hotel"
+                },
+                {
+                    url: "/assets/img/travel/durres/3.jpg",
+                    caption: "Durres sea front"
                 }
             ]
         },
-        // Add more locations here
+        {
+            location: [41.2202, 18.1565],
+            title: "Adriatic Sea Ferry: Bari-Durres",
+            images: [
+                {
+                    url: "/assets/img/travel/bari-durres/1.jpg",
+                    caption: "Bari harbor at night"
+                },
+                {
+                    url: "/assets/img/travel/bari-durres/2.jpg",
+                    caption: "In the middle of the adreatic sea"
+                },
+                {
+                    url: "/assets/img/travel/bari-durres/3.jpg",
+                    caption: "Durres port from the ferry"
+                }
+            ]
+        },
+        {
+            location: [48.4036, 2.4681],
+            title: "Milly-la-Forêt, France",
+            images: [
+                {
+                    url: "/assets/img/travel/milly_la_foret/1.jpg",
+                    caption: "A rainy bike trip!"
+                },
+                {
+                    url: "/assets/img/travel/milly_la_foret/2.jpg",
+                    caption: "A slug savouring chocolate in milly-la-forêt !"
+                }
+            ]
+        },
+        {
+            location: [43.0799, -79.0747],
+            title: "Niagara Falls",
+            images: [
+                {
+                    url: "/assets/img/travel/niagara/1.jpg",
+                    caption: "The magnificent Niagara falls!"
+                },
+                {
+                    url: "/assets/img/travel/niagara/2.jpg",
+                    caption: "In the niagara falls cruise."
+                },
+                {
+                    url: "/assets/img/travel/niagara/3.jpg",
+                    caption: "Niagara falls seen from the boat."
+                }
+            ]
+        },
+        {
+            location: [43.6532, -79.3832],
+            title: "Toronto, Canada",
+            images: [
+                {
+                    url: "/assets/img/travel/toronto/1.jpg",
+                    caption: "Toronto from the taxi boat!"
+                },
+                {
+                    url: "/assets/img/travel/toronto/2.jpg",
+                    caption: "Toronto city hall at night."
+                },
+                {
+                    url: "/assets/img/travel/toronto/3.jpg",
+                    caption: "A massive school bus in the streets of Toronto!"
+                },
+                {
+                    url: "/assets/img/travel/toronto/4.jpg",
+                    caption: "Canadian pastries and tarts at the St Lawrence Market"
+                }
+            ]
+        }
     ];
     
     let swiper = null;
