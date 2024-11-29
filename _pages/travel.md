@@ -211,6 +211,60 @@ document.addEventListener('DOMContentLoaded', function() {
                     caption: "Canadian pastries and tarts at the St Lawrence Market"
                 }
             ]
+        },
+        {
+            location: [48.7784, 9.1800],
+            title: "Stuttgart, Germany",
+            images: [   
+                {
+                    url: "/assets/img/travel/stuttgart/1.jpg",
+                    caption: "The Hans-im-Glück-Brunnen or 'Lucky Hans Fountain' in Stuttgart."
+                },
+                {
+                    url: "/assets/img/travel/stuttgart/2.jpg",
+                    caption: "A quit sunday in one of Stuttgart's parks."
+                },
+            ]
+        },
+        {
+            location: [48.2082, 16.3738],
+            title: "Vienna, Austria",
+            images: [
+                {
+                    url: "/assets/img/travel/vienna/1.jpg",
+                    caption: "The Ankeruhr (Anker clock) in Vienna, Austria."
+                },
+                {
+                    url: "/assets/img/travel/vienna/2.jpg",
+                    caption: "Presenting our blogpost poster at ICLR 2024 conference at Messe Wien."
+                },
+                {
+                    url: "/assets/img/travel/vienna/3.jpg",
+                    caption: "The entrance of Messe Wien during ICLR 2024 conference."
+                },
+            ]
+        },
+        {
+            location: [31.6182, -7.9679],
+            title: "UM6P University, Benguerir, Morocco",
+            images: [
+                {
+                    url: "/assets/img/travel/um6p/1.jpg",
+                    caption: "Mentoring at the ThinkAI Hackathon at UM6P university in Benguerir, Morocco."
+                },
+                {
+                    url: "/assets/img/travel/um6p/2.jpg",
+                    caption: "During an intervention at Dr. Soufiane Hayou's talk."
+                },
+                {
+                    url: "/assets/img/travel/um6p/3.jpg",
+                    caption: "Attending the final pitches of the ThinkAI Hackathon candidates!"
+                },
+                {
+                    url: "/assets/img/travel/um6p/4.jpg",
+                    caption: "During an intervention at Dr. Amine Mohamed Aboussalah's talk."
+                },
+            ]
         }
     ];
     
