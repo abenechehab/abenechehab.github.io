@@ -307,11 +307,11 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Night train: Istanbul-Sofia",
             images: [
                 {
-                    url: "/assets/img/travel/istanbul-sofia/1.JPG",
+                    url: "/assets/img/travel/istanbul-sofia/1.jpg",
                     caption: "Crossing the Bulgarian-turkish border in Kapıkule railway station."
                 },
                 {
-                    url: "/assets/img/travel/istanbul-sofia/2.JPG",
+                    url: "/assets/img/travel/istanbul-sofia/2.jpg",
                     caption: "The Istanbul (Halkali) Sofia express train."
                 },
             ]
@@ -321,7 +321,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Night Bus: Bucharest-Istanbul",
             images: [
                 {
-                    url: "/assets/img/travel/bucharest-istanbul/1.JPG",
+                    url: "/assets/img/travel/bucharest-istanbul/1.png",
                     caption: "The Romanian-Bulgarian border at the Ruse-Giurgiu crossing."
                 },
             ]
@@ -331,7 +331,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Istanbul, Turkey",
             images: [
                 {
-                    url: "/assets/img/travel/istanbul/1.JPG",
+                    url: "/assets/img/travel/istanbul/1.jpg",
                     caption: "The Hagia Sophia Grand Mosque."
                 },
             ]
@@ -341,7 +341,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Bursa, Turkey",
             images: [
                 {
-                    url: "/assets/img/travel/bursa/1.JPG",
+                    url: "/assets/img/travel/bursa/1.jpg",
                     caption: "Osman Gazi Türbesi, the final resting place of the first Ottoman sultan."
                 },
             ]
@@ -351,16 +351,70 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Ephesus Archaeological Site",
             images: [
                 {
-                    url: "/assets/img/travel/epheseus/1.JPG",
+                    url: "/assets/img/travel/epheseus/1.jpg",
                     caption: "Ephesus was a city in Ancient Greece."
                 },
-                                {
-                    url: "/assets/img/travel/epheseus/2.JPG",
+                {
+                    url: "/assets/img/travel/epheseus/2.jpg",
                     caption: "Epheseus' Roman theatre is capable of holding 24,000 spectators."
                 },
-                                {
-                    url: "/assets/img/travel/epheseus/3.JPG",
+                {
+                    url: "/assets/img/travel/epheseus/3.jpg",
                     caption: "An overview of the Epheseus cite, including the Library of Celsus."
+                },
+            ]
+        },
+        {
+            location: [44.4268, 26.1025],
+            title: "Bucharest, Romania",
+            images: [
+                {
+                    url: "/assets/img/travel/bucharest/1.jpg",
+                    caption: "The Palace of the Parliament also known as the People's House after the Revolution against Nicolae Ceaușescu."
+                },
+                {
+                    url: "/assets/img/travel/bucharest/2.jpg",
+                    caption: "Transylvanian pink marble, extensively used inside the Palace of the Parliament."
+                },
+                {
+                    url: "/assets/img/travel/bucharest/3.jpg",
+                    caption: "One of the 480 chandeliers feature in the Palace of the Parliament."
+                },
+            ]
+        },
+        {
+            location: [41.5147, 19.7884],
+            title: "Krujë, Albania",
+            images: [
+                {
+                    url: "/assets/img/travel/kruje/1.jpg",
+                    caption: "The Krujë Castle, the center of Skanderbeg's rebellion against the Ottoman Empire."
+                },
+                {
+                    url: "/assets/img/travel/kruje/2.jpg",
+                    caption: "Old Bazaar of Krujë."
+                },
+                {
+                    url: "/assets/img/travel/kruje/3.jpg",
+                    caption: "Krujë Castle ruins and an overview of the surrounding hills."
+                },
+            ]
+        },
+        {
+            location: [41.3275, 19.8187],
+            title: "Tirana, Albania",
+            images: [
+                {
+                    url: "/assets/img/travel/tirana/1.jpg",
+                    caption: "The Lana river crossing Tirana."
+                },
+                {
+                    url: "/assets/img/travel/tirana/2.jpg",
+                    caption: "The National History Museum of Albania, featuring 'The Albanians' mural mosaic."
+                },
+                {
+                    url: "/assets/img/travel/tirana/3.jpg",
+                    caption: "Ramadan vibes in the city center of Tirana."
                 },
             ]
         },
