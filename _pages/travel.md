@@ -265,7 +265,105 @@ document.addEventListener('DOMContentLoaded', function() {
                     caption: "During an intervention at Dr. Amine Mohamed Aboussalah's talk."
                 },
             ]
-        }
+        },
+        {
+            location: [43.3026, 5.3691],
+            title: "Marseille, France",
+            images: [
+                {
+                    url: "/assets/img/travel/marseille/1.JPG",
+                    caption: "Notre Dame de la Garde church seen from St Charles central station."
+                },
+                {
+                    url: "/assets/img/travel/marseille/2.JPG",
+                    caption: "Cheering on the Moroccan football olympic team during the Paris 2024 Olympic games."
+                },
+                {
+                    url: "/assets/img/travel/marseille/3.JPG",
+                    caption: "The beautiful Martigues beach, a commune northwest of Marseille."
+                },
+            ]
+        },
+        {
+            location: [42.6977, 23.3219],
+            title: "Sofia, Bulgaria",
+            images: [
+                {
+                    url: "/assets/img/travel/sofia/1.JPG",
+                    caption: "Front of view of the Patriarchal Cathedral of St. Alexander Nevsky."
+                },
+                {
+                    url: "/assets/img/travel/sofia/2.JPG",
+                    caption: "Side view of the Patriarchal Cathedral of St. Alexander Nevsky during the evening."
+                },
+                {
+                    url: "/assets/img/travel/sofia/3.JPG",
+                    caption: "The National Palace of Culture in Sofia, Bulgaria."
+                },
+            ]
+        },
+        {
+            location: [41.7170, 26.3511],
+            title: "Night train: Istanbul-Sofia",
+            images: [
+                {
+                    url: "/assets/img/travel/istanbul-sofia/1.JPG",
+                    caption: "Crossing the Bulgarian-turkish border in Kapıkule railway station."
+                },
+                {
+                    url: "/assets/img/travel/istanbul-sofia/2.JPG",
+                    caption: "The Istanbul (Halkali) Sofia express train."
+                },
+            ]
+        },
+        {
+            location: [43.9037, 25.9699],
+            title: "Night Bus: Bucharest-Istanbul",
+            images: [
+                {
+                    url: "/assets/img/travel/bucharest-istanbul/1.JPG",
+                    caption: "The Romanian-Bulgarian border at the Ruse-Giurgiu crossing."
+                },
+            ]
+        },
+        {
+            location: [41.0082, 28.9784],
+            title: "Istanbul, Turkey",
+            images: [
+                {
+                    url: "/assets/img/travel/istanbul/1.JPG",
+                    caption: "The Hagia Sophia Grand Mosque."
+                },
+            ]
+        },
+        {
+            location: [40.1885, 29.0610],
+            title: "Bursa, Turkey",
+            images: [
+                {
+                    url: "/assets/img/travel/bursa/1.JPG",
+                    caption: "Osman Gazi Türbesi, the final resting place of the first Ottoman sultan."
+                },
+            ]
+        },
+        {
+            location: [37.9355, 27.3461],
+            title: "Ephesus Archaeological Site",
+            images: [
+                {
+                    url: "/assets/img/travel/epheseus/1.JPG",
+                    caption: "Ephesus was a city in Ancient Greece."
+                },
+                                {
+                    url: "/assets/img/travel/epheseus/2.JPG",
+                    caption: "Epheseus' Roman theatre is capable of holding 24,000 spectators."
+                },
+                                {
+                    url: "/assets/img/travel/epheseus/3.JPG",
+                    caption: "An overview of the Epheseus cite, including the Library of Celsus."
+                },
+            ]
+        },
     ];
     
     let swiper = null;
