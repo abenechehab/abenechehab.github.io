@@ -271,15 +271,15 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Marseille, France",
             images: [
                 {
-                    url: "/assets/img/travel/marseille/1.JPG",
+                    url: "/assets/img/travel/marseille/1.jpg",
                     caption: "Notre Dame de la Garde church seen from St Charles central station."
                 },
                 {
-                    url: "/assets/img/travel/marseille/2.JPG",
+                    url: "/assets/img/travel/marseille/2.jpg",
                     caption: "Cheering on the Moroccan football olympic team during the Paris 2024 Olympic games."
                 },
                 {
-                    url: "/assets/img/travel/marseille/3.JPG",
+                    url: "/assets/img/travel/marseille/3.jpg",
                     caption: "The beautiful Martigues beach, a commune northwest of Marseille."
                 },
             ]
@@ -289,15 +289,15 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Sofia, Bulgaria",
             images: [
                 {
-                    url: "/assets/img/travel/sofia/1.JPG",
+                    url: "/assets/img/travel/sofia/1.jpg",
                     caption: "Front of view of the Patriarchal Cathedral of St. Alexander Nevsky."
                 },
                 {
-                    url: "/assets/img/travel/sofia/2.JPG",
+                    url: "/assets/img/travel/sofia/2.jpg",
                     caption: "Side view of the Patriarchal Cathedral of St. Alexander Nevsky during the evening."
                 },
                 {
-                    url: "/assets/img/travel/sofia/3.JPG",
+                    url: "/assets/img/travel/sofia/3.jpg",
                     caption: "The National Palace of Culture in Sofia, Bulgaria."
                 },
             ]
