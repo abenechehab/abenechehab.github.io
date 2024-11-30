@@ -249,19 +249,19 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "UM6P University, Benguerir, Morocco",
             images: [
                 {
-                    url: "/assets/img/travel/um6p/1.jpg",
+                    url: "/assets/img/travel/um6p/1.JPG",
                     caption: "Mentoring at the ThinkAI Hackathon at UM6P university in Benguerir, Morocco."
                 },
                 {
-                    url: "/assets/img/travel/um6p/2.jpg",
+                    url: "/assets/img/travel/um6p/2.JPG",
                     caption: "During an intervention at Dr. Soufiane Hayou's talk."
                 },
                 {
-                    url: "/assets/img/travel/um6p/3.jpg",
+                    url: "/assets/img/travel/um6p/3.JPG",
                     caption: "Attending the final pitches of the ThinkAI Hackathon candidates!"
                 },
                 {
-                    url: "/assets/img/travel/um6p/4.jpg",
+                    url: "/assets/img/travel/um6p/4.JPG",
                     caption: "During an intervention at Dr. Amine Mohamed Aboussalah's talk."
                 },
             ]
