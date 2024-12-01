@@ -418,6 +418,30 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
             ]
         },
+        {
+            location: [38.4237, 27.1428],
+            title: "Izmir, Turkey",
+            images: [
+                {
+                    url: "/assets/img/travel/izmir/1.jpg",
+                    caption: "Foça harbor at night, a municipality and district of İzmir Province."
+                },
+            ]
+        },
+        {
+            location: [48.5734, 7.7521],
+            title: "Strasbourg, France",
+            images: [
+                {
+                    url: "/assets/img/travel/strasbourg/1.jpg",
+                    caption: "The 'Petite France' or Französel (in alsacien) during the night."
+                },
+                {
+                    url: "/assets/img/travel/strasbourg/2.jpg",
+                    caption: "The Rhine river crossing Strasbourg."
+                },
+            ]
+        },
     ];
     
     let swiper = null;
