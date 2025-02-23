@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📑 New preprint and code: <a href="https://arxiv.org/pdf/2410.11711?">Zero-shot Model-based Reinforcement Learning using Large Language Models</a>.
+📑 New preprint and code: <a href="https://github.com/abenechehab/dicl">DICL</a>.
