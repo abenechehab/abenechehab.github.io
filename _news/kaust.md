@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎤 Invited talk @ KAUST, entitled <a href="/assets/pdf/adapters.pdf">Adapting Foundation Models</a>.
+🎤 Invited talk @ KAUST on <a href="/assets/pdf/adapters.pdf">Adapting Foundation Models</a>.
