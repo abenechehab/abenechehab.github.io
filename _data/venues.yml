@@ -1,13 +1,22 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"arXiv":
+  url: https://arxiv.org/
 
-"PhysRev":
-  url: https://journals.aps.org/
+"workshop @ ICLR":
+  url: https://scope-workshop.github.io/
+  color: "#ebb134"
 
-"Vision":
-  color: "#009f36"
+"workshop @ ICML":
+  url: https://iclworkshop.github.io/
+  color: "#ebb134"
+
+"workshop @ RLC":
+  url: https://sites.google.com/view/rlc2024-icbinb
+  color: "#ebb134"
 
 "ICLR":
   url: https://iclr.cc/
   color: "#D9004C"
+
+"blogpost @ ICLR":
+  url: https://iclr-blogposts.github.io/2024/about/
+  color: "#00369f"
