@@ -17,6 +17,10 @@
   url: https://iclr.cc/
   color: "#D9004C"
 
+"ICML":
+  url: https://icml.cc/
+  color: "#D9004C"
+
 "blogpost @ ICLR":
   url: https://iclr-blogposts.github.io/2024/about/
   color: "#00369f"
