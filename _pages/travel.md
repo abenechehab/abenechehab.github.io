@@ -442,6 +442,34 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
             ]
         },
+        {
+            location: [48.1351, 11.5820],
+            title: "Munich, Germany",
+            images: [
+                {
+                    url: "/assets/img/travel/munich/1.jpg",
+                    caption: "."
+                },
+            ]
+        },
+        {
+            location: [37.3891, -5.9845],
+            title: "Sevilla, Spain",
+            images: [
+                {
+                    url: "/assets/img/travel/sevilla/1.jpg",
+                    caption: "."
+                },
+                                {
+                    url: "/assets/img/travel/sevilla/2.jpg",
+                    caption: "."
+                },
+                                {
+                    url: "/assets/img/travel/sevilla/3.jpg",
+                    caption: "."
+                },
+            ]
+        },
     ];
     
     let swiper = null;

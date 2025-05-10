@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎤 Invited talk @ KAUST on <a href="/assets/pdf/adapters.pdf">Adapting Foundation Models</a>.
+🎤 Invited talk @ <a href="https://cemse.kaust.edu.sa/events/by-type/presentation/2025/02/24/adapting-foundation-models-reinforcement-learning">KAUST</a> on <a href="/assets/pdf/adapters.pdf">Adapting Foundation Models</a>.
