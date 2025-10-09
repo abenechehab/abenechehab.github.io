@@ -1,5 +1,20 @@
 ---
 ---
+@article{benechehab2025nllpo,
+  title={From Data to Rewards: a Bilevel Optimization Perspective on Maximum Likelihood Estimation},
+  author={Benechehab, Abdelhakim and Singer, Gabriel and Léger, Corentin and Attia El Hili, Youssef and Paolo, Giuseppe and Thomas, Albert and Filippone, Maurizio and Kégl, Balàzs},
+  journal={Preprint},
+  year={2025},
+  month={october},
+  day={10},
+  abbr={arxiv},
+  preview={nllpo.png},
+  selected=true,
+  abstract={Generative models form the backbone of modern machine learning, underpinning state-of-the-art systems in text, vision, and multimodal applications. While Maximum Likelihood Estimation has traditionally served as the dominant training paradigm, recent work have highlighted its limitations, particularly in generalization and susceptibility to catastrophic forgetting compared to Reinforcement Learning techniques, such as Policy Gradient methods. However, these approaches depend on explicit reward signals, which are often unavailable in practice, leaving open the fundamental problem of how to align generative models when only high-quality datasets are accessible. In this work, we address this challenge via a Bilevel Optimization framework, where the reward function is treated as the optimization variable of an outer-level problem, while a policy gradient objective defines the inner-level. We then conduct a theoretical analysis of this optimization problem in a tractable setting and extract insights that, as we demonstrate, generalize to applications such as tabular classification and model-based reinforcement learning.},
+  code={https://github.com/abenechehab/nll_to_po},
+  bibtex_show={true},
+}
+
 @article{hili2025incontext,
   title={In-Context Meta-Learning with Large Language Models for Automated Model and Hyperparameter Selection},
   author={Attia El Hili, Youssef and Thomas, Albert and Benechehab, Abdelhakim and Léger, Corentin and Ancourt, Corinne and Kégl, Balàzs},
@@ -9,7 +24,7 @@
   day={22},
   pdf={https://openreview.net/pdf?id=Ppo2SETqcE},
   abbr={workshop @ NeurIPS},
-  preview={youssef.PNG},
+  preview={youssef.png},
   selected=true,
   abstract={Model and hyperparameter selection is a critical yet costly step in machine learning, often requiring expert intuition or extensive search. We investigate whether large language models (LLMs) can reduce this cost by acting as in-context meta-learners that generalize across tasks to propose effective model-hyperparameter choices without iterative optimization. Each task is represented as structured metadata, and we prompt an LLM under two strategies: Zero-Shot, using only the target task metadata, and Meta-Informed, which augments the prompt with metadata–recommendation pairs from prior tasks. Evaluated on 22 tabular Kaggle challenges, Meta-Informed prompting outperforms Zero-Shot and hyperparameter optimization baselines, approaching expert AutoML blends while yielding interpretable reasoning traces and efficiency gains under tight training budgets. These results suggest that LLMs can transfer knowledge across tasks to guide automated model selection, establishing model and hyperparameter selection as a concrete testbed for studying emergent adaptation beyond language domains.},
   bibtex_show={true},
