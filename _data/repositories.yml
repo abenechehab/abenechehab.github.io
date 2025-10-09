@@ -4,7 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - skrub-data/skrub
   - abenechehab/dicl
   - abenechehab/adapts
-  - abenechehab/Kernels-for-biological-sequences
-  - abenechehab/Tool-wear-classification
+  - abenechehab/nll_to_po
