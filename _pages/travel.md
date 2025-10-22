@@ -470,6 +470,479 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
             ]
         },
+        {
+            location: [43.9289, 2.1464],
+            title: "Albi, France",
+            images: [
+                {
+                    url: "/assets/img/travel/albi/1.jpg",
+                    caption: "albi - 2 photo"
+                },
+                {
+                    url: "/assets/img/travel/albi/2.jpg",
+                    caption: "albi - 2 photo"
+                }
+            ]
+        },
+        {
+            location: [52.37278, 4.89361],
+            title: "Amsterdam, Netherlands",
+            images: [
+                {
+                    url: "/assets/img/travel/amsterdam/1.jpg",
+                    caption: "amsterdam - 1 photo"
+                }
+            ]
+        },
+        {
+            // Note: you need to find correct coords
+            location: [43.5804, 7.1251],
+            title: "Antibes, France",
+            images: [
+                {
+                    url: "/assets/img/travel/antibes/1.jpg",
+                    caption: "antibes - 1 photo"
+                }
+            ]
+        },
+        {
+            location: [48.1478, 17.1072],
+            title: "Bratislava, Slovakia",
+            images: [
+                {
+                    url: "/assets/img/travel/bratislava/1.jpg",
+                    caption: "bratislava - 2 photo"
+                },
+                {
+                    url: "/assets/img/travel/bratislava/2.jpg",
+                    caption: "bratislava - 2 photo"
+                }
+            ]
+        },
+        {
+            location: [50.8477, 4.3572],
+            title: "Brussels, Belgium",
+            images: [
+                {
+                    url: "/assets/img/travel/brussels/1.jpg",
+                    caption: "brussels - 1 photo"
+                }
+            ]
+        },
+        {
+            location: [47.4979, 19.0402],
+            title: "Budapest, Hungary",
+            images: [
+                {
+                    url: "/assets/img/travel/budapest/1.jpg",
+                    caption: "budapest - 2 photo"
+                },
+                {
+                    url: "/assets/img/travel/budapest/2.jpg",
+                    caption: "budapest - 2 photo"
+                }
+            ]
+        },
+        {
+            location: [48.9567, 4.3631],
+            title: "Châlons-en-Champagne, France",
+            images: [
+                {
+                    url: "/assets/img/travel/chalons en champagne/1.jpg",
+                    caption: "chalons en champagne - 3 photo"
+                },
+                {
+                    url: "/assets/img/travel/chalons en champagne/2.jpg",
+                    caption: "chalons en champagne - 3 photo"
+                },
+                {
+                    url: "/assets/img/travel/chalons en champagne/3.jpg",
+                    caption: "chalons en champagne - 3 photo"
+                }
+            ]
+        },
+        {
+            location: [55.6761, 12.5683],
+            title: "Copenhagen, Denmark",
+            images: [
+                {
+                    url: "/assets/img/travel/copenhagen/1.jpg",
+                    caption: "copenhagen - 5 photo"
+                },
+                {
+                    url: "/assets/img/travel/copenhagen/2.jpg",
+                    caption: "copenhagen - 5 photo"
+                },
+                {
+                    url: "/assets/img/travel/copenhagen/3.jpg",
+                    caption: "copenhagen - 5 photo"
+                },
+                {
+                    url: "/assets/img/travel/copenhagen/4.jpg",
+                    caption: "copenhagen - 5 photo"
+                },
+                {
+                    url: "/assets/img/travel/copenhagen/5.jpg",
+                    caption: "copenhagen - 5 photo"
+                }
+            ]
+        },
+        {
+            location: [37.8893, 4.7793],
+            title: "Córdoba, Spain",
+            images: [
+                {
+                    url: "/assets/img/travel/cordoba/1.jpg",
+                    caption: "cordoba - 1 photo"
+                }
+            ]
+        },
+        {
+            location: [43.7700, 11.2577],
+            title: "Florence, Italy",
+            images: [
+                {
+                    url: "/assets/img/travel/firenze/1.jpg",
+                    caption: "firenze - 1 photo"
+                }
+            ]
+        },
+        {
+            location: [37.1825, 3.6012],
+            title: "Granada, Spain",
+            images: [
+                {
+                    url: "/assets/img/travel/granada/1.jpg",
+                    caption: "granada - 3 photo"
+                },
+                {
+                    url: "/assets/img/travel/granada/2.jpg",
+                    caption: "granada - 3 photo"
+                },
+                {
+                    url: "/assets/img/travel/granada/3.jpg",
+                    caption: "granada - 3 photo"
+                }
+            ]
+        },
+        {
+            location: [6.1944, 106.8229],
+            title: "Jakarta, Indonesia",
+            images: [
+                {
+                    url: "/assets/img/travel/jakarta/1.jpg",
+                    caption: "jakarta - 4 photo"
+                },
+                {
+                    url: "/assets/img/travel/jakarta/2.jpg",
+                    caption: "jakarta - 4 photo"
+                },
+                {
+                    url: "/assets/img/travel/jakarta/3.jpg",
+                    caption: "jakarta - 4 photo"
+                },
+                {
+                    url: "/assets/img/travel/jakarta/4.jpg",
+                    caption: "jakarta - 4 photo"
+                }
+            ]
+        },
+        {
+            location: [3.1319, 101.6841],
+            title: "Kuala Lumpur, Malaysia",
+            images: [
+                {
+                    url: "/assets/img/travel/kualalumpur/1.jpg",
+                    caption: "kualalumpur - 5 photo"
+                },
+                {
+                    url: "/assets/img/travel/kualalumpur/2.jpg",
+                    caption: "kualalumpur - 5 photo"
+                },
+                {
+                    url: "/assets/img/travel/kualalumpur/3.jpg",
+                    caption: "kualalumpur - 5 photo"
+                },
+                {
+                    url: "/assets/img/travel/kualalumpur/4.jpg",
+                    caption: "kualalumpur - 5 photo"
+                },
+                {
+                    url: "/assets/img/travel/kualalumpur/5.jpg",
+                    caption: "kualalumpur - 5 photo"
+                }
+            ]
+        },
+        {
+            location: [49.4953, 0.1011],
+            title: "Le Havre, France",
+            images: [
+                {
+                    url: "/assets/img/travel/lehavre/1.jpg",
+                    caption: "lehavre - 3 photo"
+                },
+                {
+                    url: "/assets/img/travel/lehavre/2.jpg",
+                    caption: "lehavre - 3 photo"
+                },
+                {
+                    url: "/assets/img/travel/lehavre/3.jpg",
+                    caption: "lehavre - 3 photo"
+                }
+            ]
+        },
+        {
+            location: [38.7223, 9.1393],
+            title: "Lisbon, Portugal",
+            images: [
+                {
+                    url: "/assets/img/travel/lisbon/1.jpg",
+                    caption: "lisbon - 3 photo"
+                },
+                {
+                    url: "/assets/img/travel/lisbon/2.jpg",
+                    caption: "lisbon - 3 photo"
+                },
+                {
+                    url: "/assets/img/travel/lisbon/3.jpg",
+                    caption: "lisbon - 3 photo"
+                }
+            ]
+        },
+        {
+            location: [49.8153, 6.1296],
+            title: "Luxembourg City, Luxembourg",
+            images: [
+                {
+                    url: "/assets/img/travel/luxembourg/1.jpg",
+                    caption: "luxembourg - 2 photo"
+                },
+                {
+                    url: "/assets/img/travel/luxembourg/2.jpg",
+                    caption: "luxembourg - 2 photo"
+                }
+            ]
+        },
+        {
+            location: [45.7640, 4.8357],
+            title: "Lyon, France",
+            images: [
+                {
+                    url: "/assets/img/travel/lyon/1.jpg",
+                    caption: "lyon - 2 photo"
+                },
+                {
+                    url: "/assets/img/travel/lyon/2.jpg",
+                    caption: "lyon - 2 photo"
+                }
+            ]
+        },
+        {
+            location: [40.4167, 3.7033],
+            title: "Madrid, Spain",
+            images: [
+                {
+                    url: "/assets/img/travel/madrid/1.jpg",
+                    caption: "madrid - 4 photo"
+                },
+                {
+                    url: "/assets/img/travel/madrid/2.jpg",
+                    caption: "madrid - 4 photo"
+                },
+                {
+                    url: "/assets/img/travel/madrid/3.jpg",
+                    caption: "madrid - 4 photo"
+                },
+                {
+                    url: "/assets/img/travel/madrid/4.jpg",
+                    caption: "madrid - 4 photo"
+                }
+            ]
+        },
+        {
+            location: [21.4241, 39.8173],
+            title: "Makkah, Saudi Arabia",
+            images: [
+                {
+                    url: "/assets/img/travel/makkah/1.jpg",
+                    caption: "makkah - 2 photo"
+                },
+                {
+                    url: "/assets/img/travel/makkah/2.jpg",
+                    caption: "makkah - 2 photo"
+                }
+            ]
+        },
+        {
+            location: [59.9122, 10.7313],
+            title: "Oslo, Norway",
+            images: [
+                {
+                    url: "/assets/img/travel/oslo/1.jpg",
+                    caption: "oslo - 3 photo"
+                },
+                {
+                    url: "/assets/img/travel/oslo/2.jpg",
+                    caption: "oslo - 3 photo"
+                },
+                {
+                    url: "/assets/img/travel/oslo/3.jpg",
+                    caption: "oslo - 3 photo"
+                }
+            ]
+        },
+        {
+            location: [39.5727, 2.6569],
+            title: "Palma de Mallorca, Spain",
+            images: [
+                {
+                    url: "/assets/img/travel/palma/1.jpg",
+                    caption: "palma - 1 photo"
+                }
+            ]
+        },
+        {
+            location: [41.1579, 8.6291],
+            title: "Porto, Portugal",
+            images: [
+                {
+                    url: "/assets/img/travel/porto/1.jpg",
+                    caption: "porto - 1 photo"
+                }
+            ]
+        },
+        {
+            location: [50.0755, 14.4378],
+            title: "Prague, Czech Republic",
+            images: [
+                {
+                    url: "/assets/img/travel/prague/1.jpg",
+                    caption: "prague - 4 photo"
+                },
+                {
+                    url: "/assets/img/travel/prague/2.jpg",
+                    caption: "prague - 4 photo"
+                },
+                {
+                    url: "/assets/img/travel/prague/3.jpg",
+                    caption: "prague - 4 photo"
+                },
+                {
+                    url: "/assets/img/travel/prague/4.jpg",
+                    caption: "prague - 4 photo"
+                }
+            ]
+        },
+        {
+            location: [49.2583, 4.0317],
+            title: "Reims",
+            images: [
+                {
+                    url: "/assets/img/travel/reims/1.jpg",
+                    caption: "reims - 1 photo"
+                }
+            ]
+        },
+        {
+            location: [41.8967, 12.4822],
+            title: "Rome, Italy",
+            images: [
+                {
+                    url: "/assets/img/travel/roma/1.jpg",
+                    caption: "roma - 4 photo"
+                },
+                {
+                    url: "/assets/img/travel/roma/2.jpg",
+                    caption: "roma - 4 photo"
+                },
+                {
+                    url: "/assets/img/travel/roma/3.jpg",
+                    caption: "roma - 4 photo"
+                },
+                {
+                    url: "/assets/img/travel/roma/4.jpg",
+                    caption: "roma - 4 photo"
+                }
+            ]
+        },
+        {
+            location: [1.3521, 103.8198],
+            title: "Singapore",
+            images: [
+                {
+                    url: "/assets/img/travel/singapore/1.jpg",
+                    caption: "singapore - 3 photo"
+                },
+                {
+                    url: "/assets/img/travel/singapore/2.jpg",
+                    caption: "singapore - 3 photo"
+                },
+                {
+                    url: "/assets/img/travel/singapore/3.jpg",
+                    caption: "singapore - 3 photo"
+                }
+            ]
+        },
+        {
+            location: [6.3690, 34.8888],
+            title: "Tanzania",
+            images: [
+                {
+                    url: "/assets/img/travel/tanzania/1.jpg",
+                    caption: "tanzania - 2 photo"
+                },
+                {
+                    url: "/assets/img/travel/tanzania/2.jpg",
+                    caption: "tanzania - 2 photo"
+                }
+            ]
+        },
+        {
+            location: [41.9029, 12.4534],
+            title: "Vatican City",
+            images: [
+                {
+                    url: "/assets/img/travel/vatican/1.jpg",
+                    caption: "vatican - 2 photo"
+                },
+                {
+                    url: "/assets/img/travel/vatican/2.jpg",
+                    caption: "vatican - 2 photo"
+                }
+            ]
+        },
+        {
+            location: [44.9676, 5.5301],
+            title: "Vercors massif",
+            images: [
+                {
+                    url: "/assets/img/travel/vercors/1.jpg",
+                    caption: "vercors - 4 photo"
+                },
+                {
+                    url: "/assets/img/travel/vercors/2.jpg",
+                    caption: "vercors - 4 photo"
+                },
+                {
+                    url: "/assets/img/travel/vercors/3.jpg",
+                    caption: "vercors - 4 photo"
+                },
+                {
+                    url: "/assets/img/travel/vercors/4.jpg",
+                    caption: "vercors - 4 photo"
+                }
+            ]
+        },
+        {
+            location: [6.1333328, 39.3166654],
+            title: "Zanzibar, Tanzania",
+            images: [
+                {
+                    url: "/assets/img/travel/zanzibar/1.jpg",
+                    caption: "zanzibar - 1 photo"
+                }
+            ]
+        }
     ];
     
     let swiper = null;
