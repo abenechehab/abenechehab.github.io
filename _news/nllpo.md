@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📑 New preprint and code: "From Data to Rewards: a Bilevel Optimization Perspective on Maximum Likelihood Estimation".
+📑 New <a href="https://huggingface.co/papers/2510.07624">preprint</a> and <a href="https://github.com/abenechehab/nll_to_po">code</a>: "From Data to Rewards: a Bilevel Optimization Perspective on Maximum Likelihood Estimation".
